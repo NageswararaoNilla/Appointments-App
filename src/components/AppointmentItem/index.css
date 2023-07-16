@@ -1,1 +1,41 @@
-/* Write your CSS here */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 8px;
+  margin-left: 0;
+}
+
+.star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.star-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.star-img {
+  width: 20px;
+  height: 20px;
+}
+
+.day-style {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
